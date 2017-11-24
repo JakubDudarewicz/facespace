@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Models.Models
 {
-    class CommentModel
+    public class CommentModel
     {
         [Key]
         public int ID { get; set; }

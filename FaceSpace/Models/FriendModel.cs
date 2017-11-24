@@ -8,15 +8,15 @@ using System.Threading.Tasks;
 
 namespace Models.Models
 {
-    class FriendModel
+    public class FriendModel
     {
-        [Key]
+       [Key]
         public int RelationID { get; set; }
 
-        [ForeignKey("User")]
+       // [ForeignKey("User")]
         public int UserID { get; set; }
         
-        [ForeignKey("Friend")]
+       // [ForeignKey("Friend")]
         public int FriendID { get; set; }
 
         public virtual UserModel User { get; set; }
