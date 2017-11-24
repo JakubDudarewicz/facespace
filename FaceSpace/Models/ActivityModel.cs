@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Models.Models////
 {
-    class ActivityModel
+    public class ActivityModel
     {
         [Key, ForeignKey("User")]
         public int ID { get; set; }

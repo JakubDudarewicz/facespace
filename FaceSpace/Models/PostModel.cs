@@ -9,9 +9,9 @@ using System.Web;
 
 namespace Models.Models
 {
-    class PostModel
+     public class PostModel
     {
-        [Key]
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
 
         [ForeignKey("User")]

@@ -24,10 +24,16 @@
                     <li>@Html.ActionLink("Strona główna", "Index", "Home")</li>
                     <li>@Html.ActionLink("Informacje", "About", "Home")</li>
                     <li>@Html.ActionLink("Kontakt", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Users", "Index", "UserModels1")</li>
+                    <li>@Html.ActionLink("Activity", "Index", "ActivityModels")</li>
+                    <li>@Html.ActionLink("Friends", "Index", "FriendModels")</li>
+                    <li>@Html.ActionLink("Posts", "Index", "PostModels")</li>
+                    <li>@Html.ActionLink("Comments", "Index", "CommentModels")</li>
                 </ul>
             </div>
         </div>
     </div>
+
     <div class="container body-content">
         @RenderBody()
         <hr />
